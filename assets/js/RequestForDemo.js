@@ -71,11 +71,15 @@ var Home = function () {
                 if(!IsValidEmail){
                     $("#validemailId").text("Please Enter valid Email");
                     return;
+                   }else{
+                       $("#validemailId").text("");
                    }
                 
                              if(!IsValidMobile){
                     $("#validmobileId").text("Please Enter valid Mobile No");
                     return;
+                   }else{
+                       $("#validmobileId").text("");
                    }
      
     
