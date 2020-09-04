@@ -1,12 +1,28 @@
 'use strict';
 var Home = function () {
 
+    var IsValidMobile = true;
+    var IsValidEmail = true;
+    
     return {
         init: function () {
             $(document).ready(function () {
 
                 Home.CreateRequestFordemo();
+                
+                $(".modal-body_succsess").hide();
+                
+                $(".modal-body_Failure").hide();
+                
+                $("#Submit_Registration_succsess").hide();
+                
+                $("#Submit_Registration_Failure").hide();
+                
                 Home.CloseModel();
+                Home.DismissModel();
+                Home.DismissFailureModel();
+                Home.EmailValidation();
+                Home.MobileValidation();
             });
         },
 
@@ -52,6 +68,15 @@ var Home = function () {
                 }else{
                     $("#emailId").text("");
                 }
+                if(!IsValidEmail){
+                    $("#validemailId").text("Please Enter valid Email");
+                    return;
+                   }
+                
+                             if(!IsValidMobile){
+                    $("#validmobileId").text("Please Enter valid Mobile No");
+                    return;
+                   }
      
     
 
@@ -68,16 +93,25 @@ var Home = function () {
                     success: function (response) {
                         debugger
                         if (response.isSuccess) {
-                            document.getElementById("closeModalpopup").click();
+                            
+                            $(".modal-body").hide();
+                            $(".modal-body_succsess").show();
+                             $("#Submit_Registration_succsess").show();
+                            $("#Submit_Registration").hide();
+                            //document.getElementById("closeModalpopup").click();
                         }
                         else {
-                            alert(response.Message);
+                            $("#Submit_Registration_Failure").show();
+                            $(".modal-body_Failure").show();
+                            $("#Submit_Registration").hide();
+                            $(".modal-body").hide();
+                            //alert(response.Message);
                             processData: false;
                         }
                     },
                     error: function (xhr, desc, error) {
-                        debugger
-                        alert("There is some technical issue.please try again");
+                        //debugger
+                        //alert("There is some technical issue.please try again");
 
                     }
                 });
@@ -86,9 +120,62 @@ var Home = function () {
         
         CloseModel : function(){
         $('body').on('click', '#closeModalpopup', function () {
-            location.reload(true);
+            document.forms["myForm"].reset();
+             $(".modal-body").show();
+             $(".modal-body_Failure").hide();
+            $(".modal-body_succsess").hide();
             });
-    }
+            },
+        DismissModel : function(){
+        $('body').on('click', '#Submit_Registration_succsess', function () {
+            document.forms["myForm"].reset();
+             $(".modal-body").show();
+            $("#Submit_Registration").show();
+            $("#Submit_Registration_succsess").hide();
+            $("#Submit_Registration_Failure").hide();
+             $(".modal-body_Failure").hide();
+            $(".modal-body_succsess").hide();
+            });
+            },
+        DismissFailureModel : function(){
+        $('body').on('click', '#Submit_Registration_Failure', function () {
+            document.forms["myForm"].reset();
+             $(".modal-body").show();
+            $("#Submit_Registration").show();
+            $("#Submit_Registration_succsess").hide();
+            $("#Submit_Registration_Failure").hide();
+             $(".modal-body_Failure").hide();
+            $(".modal-body_succsess").hide();
+            });
+            },
+        
+        EmailValidation : function(email){
+            $("#email").on("input", function(){
+            var email = $("#email").val();
+            var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+            if (!filter.test(email)) {
+                IsValidEmail = false;
+            } else {
+                IsValidEmail = true;
+           }
+          });
+        },
+        
+        MobileValidation : function(mobile){
+            $("#mobileno").on("input", function(){
+            var mobileno = $("#mobileno").val();
+            var filter = /^[6-9][0-9]{9}$/;
+            if (!filter.test(mobileno)) {
+                IsValidMobile = false;
+            } else {
+                IsValidMobile = true;
+
+           }
+          });
+        }
+    
+        
+          
        
     }
 }();

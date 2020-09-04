@@ -1164,7 +1164,7 @@ a:hover h3{color: #330099;}
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static">
-        <div class="modal-dialog modal-md " role="document ">
+        <div class="modal-dialog modal-md" role="document ">
             <div class="modal-content">
                 <div class="modal-header " style="    background-color: #4D4D4D;">
                     <h5 class="modal-title " id="exampleModalLabel" style="color: #fff;">Request a Demo</h5>
@@ -1173,6 +1173,7 @@ a:hover h3{color: #330099;}
                     </button>
                 </div>
                 <div class="modal-body">
+                    <form id="Reqform" name="myForm" autocomplete="off" >
                     <div class="row ">
                         <div class="col-md-12 ">
                             <div class="form-group ">
@@ -1200,6 +1201,7 @@ a:hover h3{color: #330099;}
                                 <label for="mobileno">Phone*</label>
                                 <input type="text " class="form-control bs-input " id="mobileno" aria-describedby="emailHelp " placeholder=" ">
                                 <span id="mobilenoId" style="color:red"></span>
+                                <span id="validmobileId" style="color:red"></span>
                             </div>
                         </div>
                         <div class="col-md-12">
@@ -1207,10 +1209,12 @@ a:hover h3{color: #330099;}
                                 <label for="email">Email*</label>
                                 <input type="email" class="form-control bs-input " id="email" aria-describedby="emailHelp " placeholder=" ">
                                 <span id="emailId" style="color:red"></span>
+                                <span id="validemailId" style="color:red"></span>
                             </div>
                         </div>
                          
                     </div>
+                        
        
                     <div class="row ">
                         <div class="col-md-12 ">
@@ -1220,9 +1224,9 @@ a:hover h3{color: #330099;}
                             </div>
                         </div>
                     </div>
-                   
+                   </form>
                 </div>
-                <div class="modal-body succsess">
+                <div class="modal-body_succsess">
                 <div style="text-align: center;">
                 <i class="fa fa-check-circle" aria-hidden="true" style="    color: green;  font-size: 64px;"></i>
      
@@ -1233,7 +1237,7 @@ a:hover h3{color: #330099;}
                 </div>
                 
                 
-                 <div class="modal-body succsess Failure">
+                 <div class="modal-body_Failure">
                 <div style="text-align: center;">
                
                 <i class="fa fa-times-circle-o" aria-hidden="true" style="    color: indianred;  font-size: 64px;"></i>
@@ -1246,9 +1250,9 @@ a:hover h3{color: #330099;}
                
                 
                 <div class="modal-footer">
-                    <button type="button " id="Submit_Registration " class="btn btn-primary ">Submit</button>
-                   <button type="button " id="Submit_Registration succsess" class="btn btn-primary " style="color: #fff!important; background-color: green!important;  border-color: green!important;">Done</button>
-                    <button type="button " id="Submit_Registration Failure" class="btn btn-primary " style="color: #fff!important; background-color: indianred !important; border-color: indianred !important;">Try Again</button>
+                    <button type="button " id="Submit_Registration" class="btn btn-primary ">Submit</button>
+                   <button type="button " id="Submit_Registration_succsess" data-dismiss="modal" class="btn btn-primary" style="color: #fff!important; background-color: green!important;  border-color: green!important;">Done</button>
+                    <button type="button " id="Submit_Registration_Failure" data-dismiss="modal" class="btn btn-primary " style="color: #fff!important; background-color: indianred !important; border-color: indianred !important;">Try Again</button>
 
                 </div>
                 
