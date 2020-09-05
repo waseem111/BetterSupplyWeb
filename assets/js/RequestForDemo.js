@@ -37,51 +37,56 @@ var Home = function () {
                     "MobileNo": $("#mobileno").val(),
                     "Comments": $("#Comments").val()
                 }
+                
+                var checkvalidator = true;
 
                 if ($("#contactname").val() == "" || $("#contactname").val() == null || $("#contactname").val() == undefined) {
                     $("#contactnameId").text("Please Enter Contact Name");
-                    return;
+                    checkvalidator = false;
                 }else{
                     $("#contactnameId").text("");
                 }
                 if ($("#companyname").val() == "" || $("#companyname").val() == null || $("#companyname").val() == undefined) {
                     $("#companynameId").text("Please Enter Company Name");
-                    return;
+                    checkvalidator = false;
                 }else{
                     $("#companynameId").text("");
                 }
                 if ($("#jobtitle").val() == "" || $("#jobtitle").val() == null || $("#jobtitle").val() == undefined) {
                     $("#jobtitleId").text("Please Enter Job Title");
-                    return;
+                     checkvalidator = false;
                 }else{
                     $("#jobtitleId").text("");
                 }
                 if ($("#mobileno").val() == "" || $("#mobileno").val() == null || $("#mobileno").val() == undefined) {
                     $("#mobilenoId").text("Please Enter Contact Number");
-                    return;
+                     checkvalidator = false;
                 }else{
                     $("#mobilenoId").text("");
                 }
                 if ($("#email").val() == "" || $("#email").val() == null || $("#email").val() == undefined) {
                     $("#emailId").text("Please Enter Email");
-                    return;
+                     checkvalidator = false;
                 }else{
                     $("#emailId").text("");
                 }
                 if(!IsValidEmail){
                     $("#validemailId").text("Please Enter valid Email");
-                    return;
+                     checkvalidator = false;
                    }else{
                        $("#validemailId").text("");
                    }
                 
                              if(!IsValidMobile){
                     $("#validmobileId").text("Please Enter valid Mobile No");
-                    return;
+                     checkvalidator = false;
                    }else{
                        $("#validmobileId").text("");
                    }
      
+                if(!checkvalidator){
+                    return;
+                }
     
 
                 $.ajax({
