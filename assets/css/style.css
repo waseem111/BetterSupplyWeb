@@ -110,13 +110,13 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    background: #1acc8d;
+    background: #4d4d4d;
     color: #fff;
     transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-    background: #2be4a2;
+    background: #ffcc00;
     color: #fff;
 }
 
@@ -185,11 +185,12 @@ h6 {
 }
 
 @media (max-width: 992px) {
-    #header {
-           height: 80px;
-        margin: 0px !important;
-        position: fixed;
-    }
+  #header {
+    height: 80px;
+    margin: 0px !important;
+    position: fixed;
+    top: 14px !important;
+}
     #header .logo h1 {
         font-size: 28px;
     }
@@ -373,7 +374,7 @@ h6 {
 .mobile-nav-toggle {
   position: fixed;
     right: 25px;
-    top: 54px;
+   top: 38px;
     z-index: 999999;
     border: 0;
     background: none;
@@ -1793,7 +1794,7 @@ padding: 20px 0 20px 0px;
     transition: 0.3s;
     display: inline-block;
     line-height: 0.8;
-    font-weight: 800;
+    /*    font-weight: 700;*/
     font-size: 16px;
 }
 
