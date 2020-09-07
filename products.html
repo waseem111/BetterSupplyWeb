@@ -87,6 +87,22 @@
     transition: box-shadow 1.3s;
               
 }
+      .product{
+         
+      }
+      @media(max-width:768px) {
+    .product {
+         display: flex;padding: 0px 0;height: auto;
+    }
+          .borderCustom{
+              padding: 10px !important; 
+          }
+          img {
+    border-style: none;
+    width: 100%;
+}
+}
+
     </style>
 </head>
 
@@ -109,8 +125,8 @@
 
         </div>
         </section>-->
-    <section class="" style="display: flex;padding: 0px 0;height: 700px;">
-  <div class="left-half" style="    padding: 120px 80px 0px 86px;">
+    <section class="product" style="">
+  <div class="left-half hide" style="    padding: 120px 80px 0px 86px;">
    <div class="produts-banner">
                     <img class="pro-img" src="assets/img/banner.png" style=" width: 100%;">
                 </div>
@@ -343,48 +359,7 @@
         
 
     </script>
-    <script>
-   /*      $(window).scroll(function() {
-        if ($(this).scroll() < 100) {
-            $('.product-color').removeClass('product-color');
-            $('.color-change').removeClass('color-change');
-        } else {
-            $('.product-color').addClass('product-color');
-            $('.color-change').addClass('color-change');
-        }
-    });*/
-/*
-     $(function() {
-    $(window).on("scroll", function() {
-        if($(window).scrollTop() > 100) {
-           $(".product-color").removeClass("product-color");
-        } else {
-            //remove the background property so it comes transparent again (defined in your css)
-           $(".product-color").removeClass("product-color");
-        }
-    });
-});
-      */ 
 
-    
-    /*if ($(window).scroll() < 100) {
-         $('.product-color').addClass('product-color');
-         $('.color-change').addClass('color-change');
-    }*/
-        
-        
-     
-/*$(window).scroll(function(){
-    if ($(this).scroll() > 100) {
-       $('.product-color').removeClass('product-color');
-        $('.color-changer').removeClass('color-change');
-    } else {
-      
-         $('.product-color').addClass('product-color');
-        $('.color-changer').addClass('color-change');
-    }
-});*/
-    </script>
 </body>
 
 </html>
