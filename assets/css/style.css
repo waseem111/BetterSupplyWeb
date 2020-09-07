@@ -1876,7 +1876,7 @@ padding: 20px 0 20px 0px;
         height: 100%;
         color: #000;
         background-color: #E5E5E5;
-        padding: 10px 0px 10px 0px;
+        padding: 0px 0px 0px 0px;
     }
 }
 
@@ -1951,12 +1951,12 @@ padding: 20px 0 20px 0px;
         padding: 0px 9px 5px 23px;
     }
     .flex-item {
-        width: 134px;
+          width: 40%;
         height: 117px;
     }
     .indus-head {
         color: #808080;
-        font-size: 13px !important;
+        font-size: 11px !important;
     }
     #hero{
       min-height: 57vh;
@@ -1976,12 +1976,39 @@ padding: 20px 0 20px 0px;
     margin-left: 15%;
     list-style: none;
 }
-    .h3, h3 {
-    font-size: 1.5rem;
+   .h3, h3 {
+    font-size: 1.1rem;
 }
     .hide{
         display: none;
     }
+    #footer .footer-top .footer-links ul a {
+    color: #4d4d4d;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 0.8;
+    /* font-weight: 700; */
+    font-size: 13px;
+}
+    .demo-btn {
+    font-weight: 100;
+    font-size: 14px !important;
+    border: none;
+    padding: 16px;
+    position: relative;
+    border-radius: 4px;
+    z-index: 1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #ffffff;
+    background-color: #F0F0F0;
+    color: #4D4C4C;
+    opacity: 1;
+    font-weight: bold;
+    top: 10px;
+    width: 75% !important;
+    height: 56%;
+}
 }
 /*@media only screen and (max-width: 600px) {
   
