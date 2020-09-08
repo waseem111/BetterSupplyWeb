@@ -659,19 +659,20 @@ a:hover h3{color: #330099;}
             font-size: 1.3rem;
         }
     .whyHeading{
-           font-size: 0.9em; 
+          font-size: 1.1em;
         }
     .why-bs-des{
-        font-size: 10px;
+         font-size: 12.6px;
         margin-bottom: 1.4rem !important
     }
     .bs-cap-para {
-    font-size: 12px;
+   font-size: 16px;
     line-height: 1.5;
     color: #808080;
-    font-weight: bold;
+    font-weight: 500;
+            width: 280px;
 }
-    .bs-cap-head {
+   .bs-cap-head {
     font-weight: bold;
     font-size: 24px;
     line-height: 1.0;
@@ -730,12 +731,12 @@ a:hover h3{color: #330099;}
             .demo-btn{
                /* width: 80%;*/
             }
-            .bs-cap-para {
+/*            .bs-cap-para {
     font-size: 15px;
     line-height: 1.5;
     color: #808080;
     font-weight: bold;
-}
+}*/
             .cat-title1{
                 font-size: 7px;
             }

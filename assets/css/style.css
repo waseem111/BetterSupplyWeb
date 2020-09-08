@@ -580,11 +580,12 @@ h6 {
 }
 
 .bs-cap-para {
-       font-size: 18px;
+        font-size: 18px;
     line-height: 1.5;
     color: #999999;
-    font-weight: 800;
+    font-weight: 500;
     margin-top: 40px;
+    width: 430px;
 }
 
 .caro-img {
