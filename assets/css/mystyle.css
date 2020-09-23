@@ -218,7 +218,7 @@
     opacity: 1;
     font-weight: bold;
     top: 10px;
-    width: 48%;
+    width: 70%;
     height: 56%
 }
 
@@ -363,7 +363,7 @@ label {
     border-left: 2px solid #ffcc00;
     font-weight: bold;
     padding: 0px 4px;
-    text-align: right;
+    text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
@@ -529,7 +529,7 @@ label {
         .borderImg{
                 width: 2px;
        margin-right: 0px;
-    height: 56px;
+    height: 41px;
         }
         
         .covid-Width{
@@ -565,7 +565,7 @@ label {
             -ms-flex: 0 1 auto;
             flex: 0 1 auto;
          width: 8px;
-    height: 8px;
+            height: 8px;
             margin-right: 3px;
             margin-left: 3px;
             text-indent: -999px;
@@ -642,8 +642,7 @@ a:hover h3{color: #330099;}
     color: white;
 }
 @media (max-width: 568px) {
-            .cat-title1{
-                
+            .cat-title1{                
                 font-size:7px;
             }
      .padding0Mobile {
@@ -696,6 +695,22 @@ a:hover h3{color: #330099;}
     line-height: 19px;
     color: white;
 }
+    .lg-btn {
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    color: #4d4d4d !important;
+    border-left: 2px solid #ffcc00;
+    font-weight: bold;
+    padding: 0px 4px;
+    text-align: left !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    /* margin: 2px 32px; */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 }
         @media screen and (max-width: 1280px) {
         .carousel-indicators {
@@ -718,12 +733,11 @@ a:hover h3{color: #330099;}
         }
             #hero {
    
-  
-    background-attachment: fixed;
+                    background-attachment: fixed;
     background-repeat: no-repeat;
    
-    background-position: 100% 0%;
-      height: auto;
+    height: auto;
+       background-size: 143%;
 }
             .btn-know {
                 width: 100%
@@ -750,4 +764,45 @@ a:hover h3{color: #330099;}
     color: #fff !important;;
     text-shadow: 0 1px 0 #fff;
     opacity: 1 !important;
+}
+#header.header-scrolled {
+    padding: 2px 0px;
+    border-radius: 5px;
+    background: #F0F0F0;
+    color: #808080 !important;
+    box-shadow: 0px 1px 9px #8f9091;
+    margin: 5px 15px 0px 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+  .copytxt{text-align: center; color: #4d4d4d;font-size: 16px;font-weight: 900;padding-top: 12px;}
+    .footerHeading{
+         padding: 30px 54px 38px;  
+    }
+    @media (max-width: 568px) {
+            .footerHeading{
+                   width: 100% !important;
+            
+                 padding-left: 10px;
+            }
+        h2{
+            font-size: 1.2rem;
+        } 
+   
+.copytxt{text-align: center; color: #4d4d4d;font-size: 10px;font-weight: 900;    padding-top: 12px;}
+}
+ul{
+    list-style-type: none;
+}
+.footerLinks {
+    color: #4d4d4d;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 0.8;
+      font-weight: 500;
+    font-size: 16px;
+}
+.footerLinks:hover {
+    color: #ffcc00;
+    text-decoration: none;
 }

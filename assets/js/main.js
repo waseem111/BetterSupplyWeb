@@ -10,7 +10,7 @@
     // Preloader
     $(window).on('load', function() {
         if ($('#preloader').length) {
-            $('#preloader').delay(100).fadeOut('slow', function() {
+            $('#preloader').delay(0).fadeOut('fast', function() {
                 $(this).remove();
             });
         }
@@ -51,6 +51,7 @@
 
     // Activate smooth scroll on page load with hash links in the url
     $(document).ready(function() {
+      
         if (window.location.hash) {
             var initial_nav = window.location.hash;
             if ($(initial_nav).length) {
@@ -58,6 +59,7 @@
                 $('html, body').animate({
                     scrollTop: scrollto
                 }, 1500, 'easeInOutExpo');
+                 return false;
             }
         }
     });
@@ -141,7 +143,12 @@
             $('.back-to-top').fadeOut('slow');
         }
     });
-
+  $('.contactBottom').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    },1000);
+    return false;
+});
     $('.back-to-top').click(function() {
         $('html, body').animate({
             scrollTop: 0

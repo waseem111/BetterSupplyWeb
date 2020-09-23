@@ -15,6 +15,7 @@
 
     <!-- Google Fonts -->
 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap" rel="stylesheet">
 
     <link rel='stylesheet' href='assets/css/owl.carousel.min.css'>
     <!-- Vendor CSS Files -->
@@ -28,63 +29,280 @@
     <link rel="stylesheet" href="assets/css/normalize.min.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/slick.css">
-    
 
-   
-     <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
 
 
     <style>
-        .pb30{
-                padding-bottom: 30px;
+        
+        .stageImg{
+            width: 48%;
+        }
+        .stageFont{
+            font-size: 0.84rem;
+        }
+        .pb30 {
+            padding-bottom: 30px;
 
         }
-        .customepad{ padding: 40px;
-        
+
+        .customepad {
+            padding: 40px;
+
         }
-    @media(max-width:768px) {
-        .Mobile-Padding{
-            padding-bottom: 50px;
-        }
-         .customepad{ padding: 10px;
-   }
-        @media (max-width: 568px){
-           .col-sm-15 .wrap:before {
+          @media (min-width: 2000px) {
+              .col-sm-15 .wrap:after {
     content: '';
     position: absolute;
-    width: 53%;
-    height: calc(66% - 10px);
-    bottom: 5px;
+    width: 33%;
+    height: calc(44% - 3px);
+    top: 24px;
+    right: 188px;
+    border: 6px solid transparent;
+    border-top-color: #ffc107;
+    border-right-color: #ffc107;
+}
+   
+    }
+        @media only screen  and (min-width : 1224px) {
+.covid {
+    margin: 0.0em 0;
+    line-height: 0.6;
+    font-weight: bolder;
+    font-size: 5.8em;
+    text-align: left;
+}
+}
+        
+        @media all and (min-width: 1024px) and (max-width: 1280px) {
+             .cat-title1{
+        font-size: 12px;
+    }
+            #hero{
+                min-height:89vh;
+            }
+        .col-sm-15 .wrap:after {
+    content: '';
+    position: absolute;
+    width: 33%;
+    height: calc(44% - 3px);
+    top: 28px;
+    right: -25px;
+    border: 6px solid transparent;
+    border-top-color: #ffc107;
+    border-right-color: #ffc107;
+}
+        .covid-Width {
+    width: 70px;
+}
+        }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait){
+  
+    .mobilenone{
+        display: none;
+  
+    }
+    .covid-Width {
+    width: 70px;
+}
+          .covid {
+    margin: 0.0em 0;
+    line-height: 0.6;
+    font-weight: bolder;
+    font-size: 2.1em;
+    text-align: left;
+}
+    .betterTxt {
+    font-size: 1.75em;
+    margin: 0.0em 0;
+    font-weight: bolder;
+    text-align: left;
+}
+    .Response {
+    font-size: 1.75em;
+    margin: 0em 0px 0px 49px;
+    font-weight: bolder;
+}
+    .col-sm-15 .wrap:after {
+    content: '';
+    position: absolute;
+    width: 33%;
+    height: calc(44% - 3px);
+    top: 14px;
+    right: 20px;
+    border: 6px solid transparent;
+    border-top-color: #ffc107;
+    border-right-color: #ffc107;
+        display: none;
+}
+    .col-sm-15 .wrap:before {
+    content: '';
+    position: absolute;
+    width: 29%;
+    height: calc(42% - 10px);
+    bottom: 12px;
     left: -9px;
     border: 6px solid transparent;
     border-bottom-color: #ffc107;
     border-left-color: #ffc107;
-               display: none !important;
-} 
-            .col-sm-15 .wrap:after {
+        display: none;
+}
+    #hero {
+    min-height: 55vh;
+}
+        } /* applied to lg also */
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+     .covid-Width {
+    width: 70px;
+}
+    .covid {
+    margin: 0.0em 0;
+    line-height: 0.6;
+    font-weight: bolder;
+    font-size: 3.1em;
+    text-align: left;
+}
+       .col-sm-15 .wrap:after {
     content: '';
     position: absolute;
-    width: 39%;
+    width: 33%;
     height: calc(44% - 3px);
     top: 14px;
-    right: -19px;
+    right: 20px;
     border: 6px solid transparent;
     border-top-color: #ffc107;
     border-right-color: #ffc107;
-                    display: none !important;
+        display: none;
+}  
+    .col-sm-15 .wrap:before {
+    content: '';
+    position: absolute;
+    width: 29%;
+    height: calc(42% - 10px);
+    bottom: 12px;
+    left: -9px;
+    border: 6px solid transparent;
+    border-bottom-color: #ffc107;
+    border-left-color: #ffc107;
+        display: none;
 }
-            .mobileRowMargin{
-               margin-left: 27px !important;
+}
+        @media(max-width:768px) {
+            .Mobile-Padding {
+                padding-bottom: 50px;
             }
-        }
 
+            .customepad {
+                padding: 10px;
+            }
+
+            @media (max-width: 568px) {
+                .col-sm-15 .wrap:before {
+                    content: '';
+                    position: absolute;
+                    width: 53%;
+                    height: calc(66% - 10px);
+                    bottom: 5px;
+                    left: -9px;
+                    border: 6px solid transparent;
+                    border-bottom-color: #ffc107;
+                    border-left-color: #ffc107;
+                    display: none !important;
+                }
+
+                .col-sm-15 .wrap:after {
+                    content: '';
+                    position: absolute;
+                    width: 39%;
+                    height: calc(44% - 3px);
+                    top: 14px;
+                    right: -19px;
+                    border: 6px solid transparent;
+                    border-top-color: #ffc107;
+                    border-right-color: #ffc107;
+                    display: none !important;
+                }
+
+                .mobileRowMargin {
+                    margin-left: 27px !important;
+                }
+            }
+              @media (max-width:320px){
+                .cat-title1{
+                    font-size: 6px;
+                }
+            }
+a {
+    color: #4d4d4d;
+}
+               .copytxt{text-align: center; color: #4d4d4d;font-size: 16px;font-weight: 900;padding-top: 12px;}
+    .footerHeading{
+         padding: 30px 54px 38px;  
+    }
+    @media (max-width: 568px) {
+            .footerHeading{
+                   width: 100% !important;
+            
+                 padding-left: 10px;
+            }
+        h2{
+            font-size: 1.2rem;
+        } 
+   
+.copytxt{text-align: center; color: #4d4d4d;font-size: 10px;font-weight: 900;    padding-top: 12px;}
+}
+            
     </style>
 </head>
 
 <body>
 
     <!-- ======= Header ======= -->
-   <header id="header2"></header>
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent headernew">
+        <div class="container-fluid d-flex align-items-center">
+
+            <div class=" col-md-4">
+
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid color-change" style=""></a>
+            </div>
+            <div class="col-md-8" style="">
+                <nav class="nav-menu d-none d-lg-block">
+                    <ul class="left mx-auto">
+                        <li class=""><a href="index.html"  class="product-color activenav">Home</a></li>
+                       
+                        <li  class=""> <a href="products.html"   class="product-color activenav">Products</a></li>
+
+                       
+                        <li><a href="services.html" class="activenav">Services</a></li>
+                        <li><a href="#contact" class="activenav contactBottom">Contact Us</a></li>
+                       <!-- <li style="left: 30%;"><a href="#" class="activenav lg-btn" id="login" style="padding: 2px 5px 4px 13px;">Log in  <i class="icofont-lock" style="color: #ffcc00 !important;"></i></a> </li>-->
+                    </ul>
+                     <!--<ul class="left mx-auto">
+                       <div class="" style="text-align: right;">
+                           <a href="#" id="login" class="lg-btn">Log in
+                           </a>
+                         </div>
+
+                    </ul>-->
+                     <div class="" style="text-align: right;">
+                    <a href="#" id="login" class="lg-btn" style="    padding: 0px 0 7px 16px;">Log in <i class="icofont-lock" style="color: #ffcc00 !important;"></i>
+                    </a>
+                </div>
+                </nav>
+               
+            </div>
+            
+            <!--<div class="col-md-3 ">
+                <div class="" style="text-align: right;">
+                    <a href="#" id="login" class="lg-btn">Log in <i class="icofont-lock" style="color: #ffcc00"></i>
+                    </a>
+                </div>
+            </div>-->
+        </div>
+    </header>
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
@@ -94,7 +312,7 @@
         <div class="row">
             <div class="col-lg-12" style="">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="8000">
-                    <ol class="carousel-indicators"  style="">
+                    <ol class="carousel-indicators" style="">
                         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                         <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
@@ -107,7 +325,7 @@
                                     <h5 class="bs-cap-head">Better</h5>
                                     <h5 class="bs-cap-head"> Online Store</h5>
                                     <p class="bs-cap-para">All Corporate Purchase under one roof with our unified Procure-to-pay platform</p>
-                                     
+
                                 </div>
                                 <div class="login col-md-6 col-sm-12" style="text-align: right">
                                     <img src="assets/img/hero-sliders/2.png" class="img-responsive " alt="..." style="    margin-right: 88px;">
@@ -116,11 +334,11 @@
                         </div>
                         <div class="carousel-item">
                             <div class="row container-fluid carousel-padding">
-                                <div class=" col-md-6 col-sm-12 col-sm-12"  style="padding-top: 20px;">
-                                    <h5 class="bs-cap-head">Better Spend  </h5>
-                                      <h5 class="bs-cap-head"> Visualization</h5>
+                                <div class=" col-md-6 col-sm-12 col-sm-12" style="padding-top: 20px;">
+                                    <h5 class="bs-cap-head">Better Spend </h5>
+                                    <h5 class="bs-cap-head"> Visualization</h5>
                                     <p class="bs-cap-para">Intelligent Dashboards with Drill-to-detail ability to capture all the spend insights</p>
-                                   
+
                                 </div>
                                 <div class="login col-md-6 " style="text-align: right">
                                     <img src="assets/img/hero-sliders/3.png" class="img-responsive " alt="..." style="    margin-right: 88px;    margin-top: -40px;">
@@ -129,26 +347,26 @@
                         </div>
                         <div class="carousel-item">
                             <div class="row container-fluid carousel-padding">
-                                <div class=" col-md-6 col-sm-12 col-sm-12"  style="padding-top: 20px;">
+                                <div class=" col-md-6 col-sm-12 col-sm-12" style="padding-top: 20px;">
                                     <h5 class="bs-cap-head">Better Benefits </h5>
-                                     <h5 class="bs-cap-head"> Solutions</h5>
+                                    <h5 class="bs-cap-head"> Solutions</h5>
                                     <p class="bs-cap-para">Realize cost savings with our exclusive range of offers & loyalty programs</p>
-                                  
+
                                 </div>
                                 <div class="login col-md-6" style="text-align: right">
                                     <img src="assets/img/hero-sliders/4.png" class="img-responsive " alt="..." style="margin-right: 88px;">
                                 </div>
                             </div>
                         </div>
-                        
-                        
-                         <div class="carousel-item">
+
+
+                        <div class="carousel-item">
                             <div class="row container-fluid carousel-padding">
-                                <div class=" col-md-6 col-sm-12 col-sm-12"  style="padding-top: 20px;">
+                                <div class=" col-md-6 col-sm-12 col-sm-12" style="padding-top: 20px;">
                                     <h5 class="bs-cap-head">Better Benefits</h5>
-                                     <h5 class="bs-cap-head">Solutions</h5>
+                                    <h5 class="bs-cap-head">Solutions</h5>
                                     <p class="bs-cap-para">Realize cost savings with our exclusive range of offers & loyalty programs</p>
-                                 
+
 
                                 </div>
                                 <div class="login col-md-6" style="text-align: right">
@@ -156,7 +374,7 @@
                                 </div>
                             </div>
                         </div>
-                      <!--  <div class="carousel-item">
+                        <!--  <div class="carousel-item">
                             <img src="assets/img/hero-sliders/1.png " class="d-block w-100 bs-cap-img" alt="...">
                             <div class="d-none d-md-block bs-caption-txt">
                                 <h5 class="bs-cap-head">Better Benefits <br>Solutions</h5>
@@ -184,20 +402,15 @@
         <div class="container-fluid">
 
             <div class="row" data-aos="fade-up">
-
                 <div class="col-lg-8 col-md-8">
                     <h2 class="emb-txt" style="font-weight: bold;">Embrace Digital Transformation with our Unified eProcurement solution</h2>
                 </div>
-
                 <div class="col-lg-4 col-md-4">
                     <button class="btn-know" data-toggle="modal" data-target="#exampleModal">
                         <i class="icofont-computer" style="color: #ffcc00;"></i>
                         &nbsp; Request Demo</button>
                 </div>
-
-
             </div>
-
         </div>
     </section>
     <section class="pad-box grey-bg" data-aos="fade-left">
@@ -206,144 +419,100 @@
                 <div class="col-md-12">
                     <div style="border-left:6px solid #ffcc00" class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-stretch justify-content-center  px-lg-3" data-aos="fade-left">
                         <h3 class="fea-hd">Featured Categories </h3>
-
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-   
-            <section class="customer-logos slider " style="padding: 24px 0;" data-aos="fade-up" data-aos-delay="100">
-                 <div class=" cd-grey" style="padding: 9px;">
-                <div class="">
-                 
-                    <a href="products.html#Pantry">
-                    <img src="assets/img/category-slider/PANTRY.svg" style="display: block; width: 100%;">
-                     <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                    <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Pantry</p>    
-                    </div>
 
-                    </a>
-                </div>
-                     </div>
-                 <div class=" cd-dark" style="padding: 9px;">
-                   
-                    <a href="products.html#Housekeeping"><img src="assets/img/category-slider/HK.svg"  style="display: block; width: 100%;">
-                    </a>
-                       <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                    <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Housekeeping</p>    
+
+    <section class="customer-logos slider " style="padding: 24px 0;" data-aos="fade-up" data-aos-delay="100">
+        <div class=" cd-grey" style="padding: 9px;">
+            <div class="">
+
+                <a href="products.html#Pantry">
+                    <img src="assets/img/category-slider/PANTRY.png" style="display: block; width: 100%;">
+                    <div style="padding-top:16px; padding-bottom: 10px">
+                        <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Pantry</p>
                     </div>
-                </div>
-                <div class=" cd-grey" style="padding: 9px;">
-                  
-                   
-                    <a href="products.html#stationery"><img src="assets/img/category-slider/STA.svg"  style="display: block; width: 100%;">
-                    </a>
-                        <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                   <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Stationery</p>  
-                    </div>
-                </div>
-                
-                  <div class=" cd-dark" style="padding: 9px;">
-                  
-                   
-                    <a href="products.html#ITProducts"><img src="assets/img/category-slider/IT.svg"  style="display: block; width: 100%;">
-                    </a>
-                      <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                   <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">IT Products</p>  
-                    </div>
-                </div>
-                
-                 <div class=" cd-grey" style="padding: 9px;">
-                  
-                   
-                    <a href="products.html#FaciltyManagement"><img src="assets/img/category-slider/FM1.png"  style="display: block; width: 94.6%;">
-                    </a>
-                      <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                   <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Facilty Management</p>  
-                    </div>
-                </div>
-                
-                 <div class=" cd-dark" style="padding: 9px;">
-                  
-                   
-                    <a href="products.html#CorporateGiftings"><img src="assets/img/category-slider/CG.svg"  style="display: block; width: 100%;">
-                    </a>
-                      <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                   <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Corporate Giftings</p>  
-                    </div>
-                </div>
-                
-                   <div class=" cd-grey" style="padding: 9px;">
-                  
-                   
-                    <a href="products.html#OfficeFurniture"><img src="assets/img/category-slider/FURNI.svg"  style="display: block; width: 100%;">
-                    </a>
-                      <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                   <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Office Furniture</p>  
-                    </div>
-                </div>
-                
-                  <div class=" cd-dark" style="padding: 9px;">
-                  
-                   
-                    <a href="products.html#CorporateGiftings"><img src="assets/img/category-slider/HG .svg"  style="display: block; width: 100%;">
-                    </a>
-                      <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                   <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Hygiene & Personal Care </p>  
-                    </div>
-                </div>
-                 <!--<div class=" cd-dark" style="padding: 9px;">
-                  
-                   
-                    <a href="products.html#CorporateGiftings"><img src="assets/img/category-slider/ServiceAndSolution.svg"  style="display: block; width: 100%; height: 14.7em;">
-                    </a>
-                      <div style="padding-top:16px; padding-bottom: 10px">
-                        
-                   <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Services  & Solutions  </p>  
-                    </div>
-                </div>-->
-                
-                
-                
-            </section>
+                </a>
+            </div>
+        </div>
+        <div class=" cd-dark" style="padding: 9px;">
+
+            <a href="products.html#Housekeeping"><img src="assets/img/category-slider/HK.png" style="display: block; width: 100%;">
+            </a>
+            <div style="padding-top:16px; padding-bottom: 10px">
+                <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Housekeeping</p>
+            </div>
+        </div>
+        <div class=" cd-grey" style="padding: 9px;">
+            <a href="products.html#stationery"><img src="assets/img/category-slider/STA.png" style="display: block; width: 100%;">
+            </a>
+            <div style="padding-top:16px; padding-bottom: 10px">
+                <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Stationery</p>
+            </div>
+        </div>
+
+        <div class=" cd-dark" style="padding: 9px;">
+            <a href="products.html#ITProducts"><img src="assets/img/category-slider/IT.png" style="display: block; width: 100%;">
+            </a>
+            <div style="padding-top:16px; padding-bottom: 10px">
+                <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">IT Products</p>
+            </div>
+        </div>
+
+        <div class=" cd-grey" style="padding: 9px;">
+            <a href="products.html#FaciltyManagement"><img src="assets/img/category-slider/FM.png" style="display: block; width: 100%;">
+            </a>
+            <div style="padding-top:16px; padding-bottom: 10px">
+                <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Facilty Management</p>
+            </div>
+        </div>
+        <div class=" cd-dark" style="padding: 9px;">
+            <a href="products.html#CorporateGiftings"><img src="assets/img/category-slider/CG.png" style="display: block; width: 100%;">
+            </a>
+            <div style="padding-top:16px; padding-bottom: 10px">
+                <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Corporate Giftings</p>
+            </div>
+        </div>
+        <div class=" cd-grey" style="padding: 9px;">
+            <a href="products.html#OfficeFurniture"><img src="assets/img/category-slider/FURNI.png" style="display: block; width: 100%;">
+            </a>
+            <div style="padding-top:16px; padding-bottom: 10px">
+                <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Office Furniture</p>
+            </div>
+        </div>
+
+        <div class=" cd-dark" style="padding: 9px;">
+            <a href="products.html#CorporateGiftings"><img src="assets/img/category-slider/HG.png" style="display: block; width: 100%;">
+            </a>
+            <div style="padding-top:16px; padding-bottom: 10px">
+                <p class="cat-title1 cat-dark" style="margin-bottom: 0rem;">Hygiene & Personal Care </p>
+            </div>
+        </div>
+    </section>
 
     <!-- End Hero -->
 
-    <main id="main">
-
-        <!-- End About Section -->
-
-        <!-- ======= Features Section ======= -->
-      <section id="features" class="pad-box" style="padding-top: 0px;">
+    <main id="main">      
+        <section id="features" class="pad-box" style="padding-top: 0px;">
             <div class="container-fluid">
                 <div class="row" data-aos="fade-left">
                     <div class="col-lg-6 col-md-6">
                         <div class="why-bs-box">
-                            <h2 class="stages-Heading" >Why BetterSupply?</h2>
+                            <h2 class="stages-Heading">Why BetterSupply?</h2>
                             <hr class="btm-lin">
                         </div>
                     </div>
                 </div>
-
-
                 <div class="row" data-aos="fade-left">
-                    
-                      <div class="col-lg-4 col-md-6 mt-6 mt-md-0 center pb30" style="width: 100% !important;">
+                    <div class="col-lg-4 col-md-6 mt-6 mt-md-0 center pb30" style="width: 100% !important;">
                         <div class="fea-img" data-aos="zoom-in" data-aos-delay="100" data-aos="fade-right">
-                           <img class="why-bs-imgs" src="assets/img/whybs/simp.svg">
+                            <img class="why-bs-imgs" src="assets/img/whybs/simp.svg">
                             <h1 class="why-bs-head whyHeading" style="margin: 0em 0;">Simplified Procure to Pay Platform
                             </h1>
-                            <p class="why-bs-des" >Our End-End Purchasing platform provides seamless <br> buying experience with the ease of just a few clicks</p>
+                            <p class="why-bs-des">Our End-End Purchasing platform provides seamless  buying experience with the ease of just a few clicks</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mt-6 mt-md-0 center pb30">
@@ -351,7 +520,7 @@
                             <img class="why-bs-imgs" src="assets/img/whybs/budget.svg">
                             <h1 class="why-bs-head whyHeading" style="margin: 0em 0;">Budget Meters
                             </h1>
-                            <p class="why-bs-des" >Track your spend against Budgets to know whether there's sufficient budget before committing spend</p>
+                            <p class="why-bs-des">Track your spend against Budgets to know whether there's sufficient budget before committing spend</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 center pb30">
@@ -359,21 +528,15 @@
                             <img class="why-bs-imgs" src="assets/img/whybs/digital.svg">
                             <h1 class="why-bs-head whyHeading" style="margin: 0em 0;">Go Digital Now
                             </h1>
-                            <p class="why-bs-des" >Replace convoluted manual purchasing process with our end-end Digitized process</p>
+                            <p class="why-bs-des">Replace convoluted manual purchasing process with our end-end Digitized process</p>
                         </div>
-
                     </div>
-                
-
-               
-
-               
                     <div class="col-lg-4 col-md-6 mt-6 mt-md-0 center pb30">
                         <div class="fea-img" data-aos="zoom-in" data-aos-delay="100" data-aos="fade-right">
                             <img class="why-bs-imgs" src="assets/img/whybs/unified.svg">
                             <h1 class="why-bs-head whyHeading" style="margin: 0em 0;">Unified Spend Repository
                             </h1>
-                            <p class="why-bs-des">Central Repository to access all your spend data - from  eQuotation to ePO & Delivery Challans to eInvoices
+                            <p class="why-bs-des">Central Repository to access all your spend data - from eQuotation to ePO & Delivery Challans to eInvoices
                             </p>
                         </div>
                     </div>
@@ -384,9 +547,8 @@
                             </h1>
                             <p class="why-bs-des">Gain Visibility & Control across your company wide spend to ensure compliance </p>
                         </div>
-
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 mt-6 mt-md-0 center pb30"  style="    width: 100% !important;">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-6 mt-md-0 center pb30" style="    width: 100% !important;">
                         <div class="fea-img" data-aos="zoom-in" data-aos-delay="100" data-aos="fade-right ">
                             <img class="why-bs-imgs" src="assets/img/whybs/track.svg">
                             <h1 class="why-bs-head whyHeading" style="margin: 0em 0;">Savings Tracking
@@ -394,125 +556,104 @@
                             <p class="why-bs-des">Gain Real time insights into your costs-savings</p>
                         </div>
                     </div>
-            
-               
                     <div class="col-lg-6 col-md-6 center pb30">
                         <div class="fea-img" data-aos="zoom-in" data-aos-delay="50" data-aos="fade-left">
                             <img class="why-bs-imgs" src="assets/img/whybs/time.svg">
                             <h1 class="why-bs-head whyHeading" style="margin: 0em 0;">Reduced cycle Time
                             </h1>
-                            <p class="why-bs-des" >Track & Manage Purchase orders in Real time, reduce company request-to-approval times
+                            <p class="why-bs-des">Track & Manage Purchase orders in Real time, reduce company request-to-approval times
                             </p>
                         </div>
-
                     </div>
                     <div class="col-lg-6 col-md-6 mt-6 mt-md-0 center pb30">
                         <div class="fea-img" data-aos="zoom-in" data-aos-delay="100" data-aos="fade-right   ">
                             <img class="why-bs-imgs" src="assets/img/whybs/user.svg ">
                             <h1 class="why-bs-head whyHeading" style="margin: 0em 0;">User Satisfaction
                             </h1>
-                            <p class="why-bs-des">Our Ease to use platform & Intuitive design aids  quick learning & adoption, thereby limiting the<br> training efforts to bare minimum</p>
+                            <p class="why-bs-des">Our Ease to use platform & Intuitive design aids quick learning & adoption, thereby limiting the<br> training efforts to bare minimum</p>
                         </div>
                     </div>
                 </div>
-           </div>
-        </section>
-      
- <section class="pad-box grey-bg customepad" data-aos="fade-up" style="background-image: url('assets/img/COVIDBackgroundImg.jpg');background-repeat: no-repeat;   ">
-        <div class="">
-            <div class="row">
-
-                <div class="col-md-7" >
-                        <div class="row padd" style="justify-content: center;margin-bottom: 13px;">
-
-                                <div class="col-sm-15 text-center">
-                                    
-                                        <div class="wrap">
-                                             <h1 class="betterTxt"  style=""># better</h1>
-                                             <h1 class="covid" style="">COVID</h1>
-                                             <h1 class="Response" style="">Response</h1>
-                                        </div>
-                                    
-                                    <div class="clearfix"></div>
-                                </div>                               
-                            </div>
-                    <div class="row mobileRowMargin">
-                        <div class="col-md-12">
-                            <div class="row">
-
-                                <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
-                                    <img src="assets/img/Iconscovid-19/washyourhands.png" class="covid-Width">
-
-                                    <span>
-                                        <h6 style="font-size: 12px;font-weight: bold;text-align: center;"> Wash your hands</h6>
-                                    </span>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
-                                    <img src="assets/img/Iconscovid-19/usesoap.png" class="covid-Width">
-                                    <span>
-                                        <h6 style="font-size: 12px;font-weight: bold;text-align: center;"> Use soap</h6>
-                                    </span>
-
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
-                                    <img src="assets/img/Iconscovid-19/waermsk.png" class="covid-Width">
-                                    <span>
-                                        <h6 style="font-size: 12px;font-weight: bold;text-align: center;">Wear mask</h6>
-                                    </span>
-
-                                </div>
-
-
-                                <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
-                                    <img src="assets/img/Iconscovid-19/avoidcrowds.png" class="covid-Width">
-                                    <span>
-                                        <h6 style="font-size: 12px;font-weight: bold;text-align: center;">Avoid crowds</h6>
-                                    </span>
-                                </div>
-                                <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
-                                    <img src="assets/img/Iconscovid-19/physicaldistancing.png" class="covid-Width">
-                                    <span>
-                                        <h6 style="font-size: 12px;font-weight: bold;text-align: center;">Physical distancing</h6>
-                                    </span>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5" style="padding-top: 60px;">
-                    
-                    <div class="col-md-12">
-                        <h3 class="covid-txt">We take utmost precautions  to ensure your order is delivered safely</h3>
-                        <p class="covid-des">Check out our range of PPE &
-                            <b>Hygiene & Personal Care</b>
-                        </p>
-                         <div class="Mobile-Padding" style="text-align: center;">
-                            <button class="demo-btn" data-toggle="modal" data-target="#exampleModal">
-                                <i class="icofont-computer" style="color: #ffcc00;"></i>
-                                 Request a Demo</button>
-                        </div>
-
-                    </div>
-                </div>
-
-
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="pad-box grey-bg customepad" data-aos="fade-up" style="background-image: url('assets/img/COVIDBackgroundImg.jpg');background-repeat: no-repeat;   ">
+            <div class="">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row padd" style="justify-content: center;margin-bottom: 13px;">
+                            <div class="col-sm-15 text-center">
+                                <div class="wrap">
+                                    <h1 class="betterTxt" style=""># better</h1>
+                                    <h1 class="covid" style="">COVID</h1>
+                                    <h1 class="Response" style="">Response</h1>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="row mobileRowMargin">
+                            <div class="col-md-12">
+                                <div class="row">
+
+                                    <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
+                                        <img src="assets/img/Iconscovid-19/washyourhands.png" class="covid-Width">
+                                        <span>
+                                            <h6 style="font-size: 12px;font-weight: bold;text-align: center;"> Wash your hands</h6>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
+                                        <img src="assets/img/Iconscovid-19/usesoap.png" class="covid-Width">
+                                        <span>
+                                            <h6 style="font-size: 12px;font-weight: bold;text-align: center;"> Use soap</h6>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
+                                        <img src="assets/img/Iconscovid-19/waermsk.png" class="covid-Width">
+                                        <span>
+                                            <h6 style="font-size: 12px;font-weight: bold;text-align: center;">Wear mask</h6>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
+                                        <img src="assets/img/Iconscovid-19/avoidcrowds.png" class="covid-Width">
+                                        <span>
+                                            <h6 style="font-size: 12px;font-weight: bold;text-align: center;">Avoid crowds</h6>
+                                        </span>
+                                    </div>
+                                    <div class="col-md-2 col-sm-6 col-xs-6" style="text-align: center;">
+                                        <img src="assets/img/Iconscovid-19/physicaldistancing.png" class="covid-Width">
+                                        <span>
+                                            <h6 style="font-size: 12px;font-weight: bold;text-align: center;">Physical distancing</h6>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5" style="padding-top: 60px;">
+                        <div class="col-md-12">
+                            <h3 class="covid-txt">We take utmost precautions to ensure your order is delivered safely</h3>
+                            <p class="covid-des">Check out our range of PPE &
+                                <b>Hygiene & Personal Care</b>
+                            </p>
+                            <div class="Mobile-Padding" style="text-align: center;">
+                                <button class="demo-btn" data-toggle="modal" data-target="#exampleModal">
+                                    <i class="icofont-computer" style="color: #ffcc00;"></i>
+                                    Request a Demo</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="features" class="pad-box grey-bg" style="margin-top:48px;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <div style="border-left:6px solid #ffcc00" class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-stretch justify-content-center  px-lg-3" data-aos="fade-left">
                             <h3 class="fea-hd">Industry Served</h3>
-
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <section style="    padding: 24px 0;">
@@ -526,7 +667,6 @@
                         </div>
                     </div>
                     <div class="flex-item">
-
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/Aviation.png">
                             <h1 class="indus-head">Aviation
@@ -534,14 +674,14 @@
                         </div>
                     </div>
                     <div class="flex-item">
-                    <div class="">
+                        <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/It&telecommunication.png">
                             <h1 class="indus-head">IT & Telecommunication
                             </h1>
                         </div>
-                        </div>
+                    </div>
                     <div class="flex-item">
-                        
+
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/FinancialServices.png">
                             <h1 class="indus-head">Financial Services
@@ -549,8 +689,6 @@
                         </div>
                     </div>
                     <div class="flex-item">
-
-
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/FoodIndustries.png">
                             <h1 class="indus-head">Hospital
@@ -558,8 +696,6 @@
                         </div>
                     </div>
                     <div class="flex-item">
-
-
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/HeavyIndustries.png">
                             <h1 class="indus-head">Heavy Industries
@@ -567,8 +703,6 @@
                         </div>
                     </div>
                     <div class="flex-item">
-
-
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/Hospitality.png">
                             <h1 class="indus-head">Hospitality
@@ -581,24 +715,15 @@
                             <h1 class="indus-head">Mall & Multiplex
                             </h1>
                         </div>
-
-                       
                     </div>
-
                     <div class="flex-item">
-
-                        
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/Education.png">
                             <h1 class="indus-head">Education
                             </h1>
                         </div>
-                    
-                        
                     </div>
-                       <div class="flex-item">
-
-
+                    <div class="flex-item">
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/MNC.png">
                             <h1 class="indus-head">MNC
@@ -606,17 +731,13 @@
                         </div>
                     </div>
                     <div class="flex-item">
-
-
-                        <div class="">
+                    <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/Manufacturing.png">
                             <h1 class="indus-head">Manufacturing
                             </h1>
                         </div>
                     </div>
-                  <div class="flex-item">
-
-
+                    <div class="flex-item">
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/PublicSector.png">
                             <h1 class="indus-head">Public Sector
@@ -624,28 +745,20 @@
                         </div>
                     </div>
                     <div class="flex-item">
-
-
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/FoodIndustries.png">
                             <h1 class="indus-head">Food Industries
                             </h1>
                         </div>
                     </div>
-                    
                     <div class="flex-item">
-
-
-                        <div class="">
+                    <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/Pharmaceutical.png">
                             <h1 class="indus-head">Pharmaceutical
                             </h1>
                         </div>
                     </div>
-                   
                     <div class="flex-item">
-
-
                         <div class="">
                             <img class="img-responsive indus-img" src="assets/img/industries/Retail.png">
                             <h1 class="indus-head">Retail
@@ -653,193 +766,178 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
+        <section style="    padding: 0px 0;">
 
-      
-        
-        
-        
-        <section id="pricing" class="pricing" style="    padding: 24px 0;">
-            
-                <div class="container-fluid" data-aos="fade-left">
-                 <div class="col-lg-6 col-md-6">
-                        <div class="why-bs-box">
-                            <h2 class="stages-Heading" style="">Bettersupply Procurement Stages</h2>
-                            <hr class="btm-lin">
+            <div class="container-fluid" data-aos="fade-left">
+                <div class="col-lg-12 col-md-12">
+                    <div class="why-bs-box">
+                        <h2 class="stages-Heading" style="">Bettersupply Procurement Stages</h2>
+                        <hr class="btm-lin">
+                    </div>
+                </div>
+            </div>
+         
+        </section>
+       <section id="pricing" class="pricing" style="padding-bottom: 140px;">
+           <div class="container-fluid " style="">
+                <div class="hide mobilenone" style="border: 4px dotted; width: 35%; height: 90px; border-radius: 28px;color: #4d4d4d4d;position: absolute;
+    z-index: 0;
+    right: 16%;">
+                </div>
+                <div class="row aos-init aos-animate" data-aos="fade-left" style="padding-top: 65px;; background-color: #fff;    margin-bottom: -20px;">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-lg-0" style="background-color: #fff;">
+                        <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400" style="height: auto">
+                            <span class="advanced"></span>
+                            <span class="advanced" style="padding: 75px 0px 0px 0px; transform: rotate(-45deg);left: -82px;font-weight: 900; font-size:16px">Stage 1</span>
+                            <div class="row">
+                                <div class="col-lg-12 padding0Mobile" style="display: flex;">
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/identify_needs.svg" style="">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6  class="stageFont">Identity Needs </h6>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/select.svg" style="     ">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6  class="stageFont">Select Products/ Services</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/sumbitapurchasereque_E4OXc.svg" style=" ">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6  class="stageFont">Submit a Purchase Request </h6>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-lg-0" style="background-color: #fff;">
+                        <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400" style="height: auto;">
+                            <span class="advanced"></span>
+                            <span class="advanced" style="padding: 75px 0px 0px 0px; transform: rotate(-45deg);left: -82px;font-weight: 900; font-size:16px">Stage 2</span>
+                            <div class="row">
+                                <div class="col-lg-12 padding0Mobile" style="display: flex;">
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/check_authorizepr.svg" style="">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6  class="stageFont">Check &  Authorize PR</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/create_sendpurchaseo_0HB2k.svg" style="">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6  class="stageFont">Create &  Send Purchase Order</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/orderdelivery.svg" style=" ">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6  class="stageFont">Order  Delivered</h6>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-lg-0" style="background-color: #fff;">
+                        <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400" style="height: auto;">
+                            <span class="advanced"></span>
+                            <span class="advanced" style="padding: 75px 0px 0px 0px; transform: rotate(-45deg);left: -82px;font-weight: 900; font-size:16px">Stage 3</span>
+                            <div class="row">
+                                <div class="col-lg-12 padding0Mobile" style="display: flex;">
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/grn.svg" style=" ">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6 class="stageFont">GRN Processed </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/invoices_payments.svg" style="">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6  class="stageFont">Invoices & Payments</h6>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0" style="padding-right: 0px; padding-left: 0px;">
+                                        <img class="stageImg" src="assets/img/stagesIcon/recordkeepinginsyste_0HzNP.svg" style="">
+                                        <div class="dotedLine">
+                                            <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
+                                        </div>
+                                        <div>
+                                            <h6  class="stageFont">Record Keeping In Systems</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                   
-               
-      <div class="container-fluid " style="">
-          <div class="hide" style="border: 4px dotted; width: 35%; height: 90px; border-radius: 28px; margin-left: 729px;color: #4d4d4d4d; margin-bottom: -62px;"> 
-          
-          </div>
-        <div class="row aos-init aos-animate" data-aos="fade-left" style="margin-top: 42px; background-color: #fff;">
 
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-lg-0" style="background-color: #fff;">
-            <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400" style="height: 270px;">
-              <span class="advanced"></span>
-              <span class="advanced" style="padding: 75px 0px 0px 0px; transform: rotate(-45deg);left: -82px;font-weight: 900; font-size:16px">Stage 1</span>
-            <div class="row">  
-                  <div class="col-lg-12 padding0Mobile" style="display: flex;">                     
-                        <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                        <img class="" src="assets/img/stagesIcon/identify_needs.svg" style="width: 51%; ">
-                          <div class="dotedLine">
-                          <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                            <h6>identity Needs </h6>
-                          
-                            </div>
-                        </div>
-                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                        <img src="assets/img/stagesIcon/select.svg" style="     width: 51%;">
-                          <div class="dotedLine">
-                          <img  class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                            <h6>Select<br>Products/<br>Services</h6>
-                          
-                            </div>
-                        </div>
-                       <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                        <img src="assets/img/stagesIcon/sumbitapurchasereque_E4OXc.svg" style=" width: 51%;">
-                          <div class="dotedLine">
-                          <img  class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                            <h6>Submit a <br> Purchase<br> Request </h6>
-                          
-                            </div>
-                        </div>
-                  
+                <div class="hide mobilenone" style="border: 4px dotted; width: 35%; height: 90px; border-radius: 28px; /* margin-left: 213px; */
+                color: #4d4d4d4d;  margin-top: 0px; position: absolute; z-index: -1; left: 16%;">
                 </div>
-                
-          </div>
             </div>
-          </div>
-             <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-lg-0" style="background-color: #fff;">
-            <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400" style="height: 270px;">
-              <span class="advanced"></span>
-              <span class="advanced" style="padding: 75px 0px 0px 0px; transform: rotate(-45deg);left: -82px;font-weight: 900; font-size:16px">Stage 2</span>
-            <div class="row">  
-                  <div class="col-lg-12 padding0Mobile" style="display: flex;">                     
-                        <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                       <img src="assets/img/stagesIcon/check_authorizepr.svg" style=" width: 51%;">
-                          <div class="dotedLine">
-                          <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                             <h6>Check & <br> Authorize PR</h6>
-                          
-                            </div>
-                        </div>
-                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                        <img src="assets/img/stagesIcon/create_sendpurchaseo_0HB2k.svg" style=" width: 51%;">
-                          <div class="dotedLine">
-                          <img  class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                              <h6>Create & <br> Send Purchase <br> Order</h6>
-                          
-                            </div>
-                        </div>
-                       <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                        <img src="assets/img/stagesIcon/orderdelivery.svg" style=" width: 51%;">
-                          <div class="dotedLine">
-                          <img  class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                             <h6>Order <br> Delivered</h6>
-                          
-                            </div>
-                        </div>
-                  
-                </div>
-                
-          </div>
-            </div>
-          </div>
-             <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-lg-0" style="background-color: #fff;">
-            <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400" style="height: 270px;">
-              <span class="advanced"></span>
-              <span class="advanced" style="padding: 75px 0px 0px 0px; transform: rotate(-45deg);left: -82px;font-weight: 900; font-size:16px">Stage 3</span>
-            <div class="row">  
-                  <div class="col-lg-12 padding0Mobile" style="display: flex;">                     
-                        <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                       <img src="assets/img/stagesIcon/grn.svg" style=" width: 51%;">
-                          <div class="dotedLine">
-                          <img class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                           <h6>GRN <br> Processed </h6>
-                          
-                            </div>
-                        </div>
-                    <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                     <img src="assets/img/stagesIcon/invoices_payments.svg" style=" width: 51%;">
-                          <div class="dotedLine">
-                          <img  class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                              <h6>Invoices <br> & Payments</h6>
-                          
-                            </div>
-                        </div>
-                       <div class="col-lg-4 col-md-6 col-sm-4 mt-4 mt-lg-0">
-                      <img src="assets/img/stagesIcon/recordkeepinginsyste_0HzNP.svg" style=" width: 51%;">
-                          <div class="dotedLine">
-                          <img  class="borderImg" src="assets/img/stagesIcon/line.png" style="">
-                            </div>
-                            <div>
-                          <h6>Record <br> Keeping <br> In Systems</h6>
-                          
-                            </div>
-                        </div>
-                  
-                </div>
-                
-          </div>
-            </div>
-          </div>
-        </div>
-          
-<div  class="hide" style="border: 4px dotted; width: 35%;height: 90px;border-radius: 28px; margin-left: 213px;color: #4d4d4d4d; margin-top: -20px;"> 
-          
-          </div>
- 
-      </div>
-    </section>
         
+        </section>
         <section id="features" class="pad-box grey-bg" data-aos="fade-left" data-aos-delay="200">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <div style="border-left:6px solid #ffcc00" class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-stretch justify-content-center  px-lg-3 aos-init aos-animate" data-aos="fade-left">
                             <h3 class="fea-hd">Featured Brands</h3>
-
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="customer-logos slider " style="padding: 24px 0;" data-aos="fade-up" data-aos-delay="200">
-            <div class="slide dark-pt"><img src="assets/img/partners/adidas.svg"></div>
-            <div class="slide grey-pt"><img src="assets/img/partners/asics.svg"></div>
-            <div class="slide dark-pt"><img src="assets/img/partners/Acer.svg"></div>
-            <div class="slide grey-pt"><img src="assets/img/partners/AirWick.svg"></div>
-            <div class="slide dark-pt"><img src="assets/img/partners/AmericanTourister.svg"></div>
-            <div class="slide grey-pt"><img src="assets/img/partners/Apple.svg"></div>
-            <div class="slide dark-pt"><img src="assets/img/partners/Aquafina.svg"></div>
-            <div class="slide grey-pt"><img src="assets/img/partners/beats.svg"></div>
-            <div class="slide dark-pt"><img src="assets/img/partners/bilt.svg"></div>
-            <div class="slide grey-pt"><img src="assets/img/partners/Baygon.svg"></div>
-            <div class="slide dark-pt"><img src="assets/img/partners/Bisleri.svg"></div>
-          <div class="slide grey-pt"><img src="assets/img/partners/Bose.svg"></div>
-            <div class="slide dark-pt"><img src="assets/img/partners/Britannia.svg"></div>
+            <div class="slide dark-pt"><img src="assets/img/Brand/3m.png"></div>
+            
+            <div class="slide grey-pt"><img src="assets/img/Brand/american%20tourister.png"></div>
+            <div class="slide dark-pt"><img src="assets/img/Brand/bosch.png"></div>
+            <div class="slide grey-pt"><img src="assets/img/Brand/Cello.png"></div>
+            <div class="slide dark-pt"><img src="assets/img/Brand/cocacola.png"></div>
+            <div class="slide grey-pt"><img src="assets/img/Brand/dell.png"></div>
+            <!-- <div class="slide dark-pt"><img src="assets/img/partners/Aquafina.svg"></div>-->
+            <div class="slide dark-pt"><img src="assets/img/Brand/diversey.png"></div>
+            <div class="slide grey-pt"><img src="assets/img/Brand/Kangaro.png"></div>
+            <div class="slide dark-pt"><img src="assets/img/Brand/kelloggs.png"></div>
+            <div class="slide grey-pt"><img src="assets/img/Brand/Kimberly-Ckark.png"></div>
+            <div class="slide dark-pt"><img src="assets/img/Brand/logitech.png"></div>
+            <div class="slide grey-pt"><img src="assets/img/Brand/samsung.png"></div>
+            <div class="slide dark-pt"><img src="assets/img/Brand/stanley.png"></div>
+            <div class="slide grey-pt"><img src="assets/img/Brand/wildcraft.png"></div>
             <!--  <div class="slide grey-pt"><img src="assets/img/partners/Cadbury.svg"></div>
             <div class="slide dark-pt"><img src="assets/img/partners/Camlin.svg"></div>
             <div class="slide grey-pt"><img src="assets/img/partners/Canon.svg"></div>
@@ -850,7 +948,7 @@
             <div class="slide dark-pt"><img src="assets/img/partners/Crocs.svg"></div>
             <div class="slide grey-pt"><img src="assets/img/partners/Faber-Castell.svg"></div>
             <div class="slide dark-pt"><img src="assets/img/partners/Fastrack.svg"></div>-->
-<!--            <div class="slide grey-pt"><img src="assets/img/partners/Fila.svg"></div>
+            <!--            <div class="slide grey-pt"><img src="assets/img/partners/Fila.svg"></div>
             <div class="slide dark-pt"><img src="assets/img/partners/Flair.svg"></div>
             <div class="slide grey-pt"><img src="assets/img/partners/Fossil.svg"></div>
             <div class="slide dark-pt"><img src="assets/img/partners/Gatorade.svg"></div>
@@ -911,16 +1009,106 @@
             <div class="slide grey-pt"><img src="assets/img/partners/Unibic.svg"></div>
             <div class="slide dark-pt"><img src="assets/img/partners/Wildcraft.svg"></div>-->
         </section>
-            </main>
+         <section class="pad-box"  style="background-color: #4D4D4D;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-3 px-lg-3" >
+                            <h3 class="fea-hd" style="color: white;">Now Its Time To Go From Manual Procurement To Digital Procurement</h3>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-xl-12 col-lg-12 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-3 px-lg-3" >
+                            <button class="demo-btn" data-toggle="modal" data-target="#exampleModal">
+                                <i class="icofont-computer" style="color: #ffcc00;"></i>
+                               
+                                &nbsp; Request Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer id="contact">
+     
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 footerHeading" style=" ">
+                        <h2 class="" style="font-weight: bold; color: #4d4d4d;">Digital <br> Procurement <br> Company
+                        </h2>
+                        
+                      
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-links">
+                        <ul  style=" padding-top: 20px;">
+                            <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="about.html" class="footerLinks">About Us</a></li>
+                            <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="products.html" class="footerLinks">Products</a></li>
+                              <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="services.html" class="footerLinks">Services</a></li>
+<!--
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Supplier registration</a></li>
+-->
+                            <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="privacyPolicy.html" class="footerLinks">Privacy Policy</a></li>
+                            <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="termsAndConditions.html" class="footerLinks">Terms &amp; Conditions </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 footer-links">
+                        <ul style="    margin-bottom: 0px; padding-top: 40px;">
+                            <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="#" class="footerLinks">Shaikpet, Hyderabad</a></li>
+                            <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="#" class="footerLinks">Telengana - 500008</a></li>
+                            <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="#" class="footerLinks">Phone : +91 7799 790 790</a></li>
+                            <li style="padding: 5px 0;"><i class="bx bx-chevron-right"></i> <a href="mailto:hello@bettersupply.in"  class="footerLinks"> Email :&nbsp; hello@bettersupply.in</a></li>
+                        </ul>
+                        
+                        <ul class="soc-ul">
+                             <li style="    padding: 10px 0px;"><a href="mailto:hello@bettersupply.in" class="footerLinks"> Follow us @</a></li>
+                            <li style="    padding: 10px 6px;">
+                                <a href="https://www.facebook.com/bettersupplyin" target="_blank" class="footerLinks"><i class="icofont-facebook"></i></a>
+                            </li>
+                            <li style="    padding: 10px 6px;">
+                                <a href="https://twitter.com/bettersupplyin" target="_blank" class="footerLinks"><i class="icofont-twitter"></i></a>
+                            </li>
+                            <li style="    padding: 10px 6px;">
+                                <a href="https://www.instagram.com/bettersupplyin/" target="_blank" class="footerLinks"><i class="icofont-instagram"></i></a>
+                            </li>
+                            <li style="    padding: 10px 6px;">
+                                <a href="https://www.linkedin.com/company/bettersupply-in/?viewAsMember=true" target="_blank" class="footerLinks"><i class="icofont-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                     
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container-fluid">                
+                    <div class="col-lg-12 col-md-12">
+                        <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="width: 100% !important;">
+                        <!-- <div class="copyright">
+                            &copy; Copyright <strong><span>Bootslander</span></strong>. All Rights Reserved
+                        </div> -->
+                        <p class="copytxt" style="">&copy; BetterSupply.in All Rights Reserved</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+    </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-     <div id="footer"></div>
-
+  
     <!-- End Footer -->
-    <!-- Button trigger modal -->
-
-
+    <!-- Btton trigger modal -->
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static">
         <div class="modal-dialog modal-md" role="document ">
@@ -932,129 +1120,113 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form id="Reqform" name="myForm" autocomplete="off" >
-                    <div class="row ">
-                        <div class="col-md-12 ">
-                            <div class="form-group ">
-                                <label for="contactname">Contact Name*</label>
-                                <input type="text " class="form-control bs-input " id="contactname" aria-describedby="emailHelp " placeholder="">
-                                <span id="contactnameId" style="color:red"></span>
+                    <form id="Reqform" name="myForm" autocomplete="off">
+                        <div class="row ">
+                            <div class="col-md-12 " style="width: 100% !important;">
+                                <div class="form-group ">
+                                    <label for="contactname">Contact Name*</label>
+                                    <input type="text " class="form-control bs-input " id="contactname" aria-describedby="emailHelp " placeholder="">
+                                    <span id="contactnameId" style="color:red"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 " style="width: 100% !important;">
+                                <div class="form-group ">
+                                    <label for="companyname">Company Name*</label>
+                                    <input type="text " class="form-control bs-input " id="companyname" aria-describedby="emailHelp " placeholder="">
+                                    <span id="companynameId" style="color:red"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 " style="width: 100% !important;">
+                                <div class="form-group ">
+                                    <label for="jobtitle">Job Title*</label>
+                                    <input type="text" class="form-control bs-input " id="jobtitle" aria-describedby="emailHelp " placeholder=" ">
+                                    <span id="jobtitleId" style="color:red"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 " style="width: 100% !important;">
+                                <div class="form-group ">
+                                    <label for="mobileno">Phone*</label>
+                                    <input type="text " class="form-control bs-input " id="mobileno" aria-describedby="emailHelp " placeholder=" ">
+                                    <span id="mobilenoId" style="color:red"></span>
+                                    <span id="validmobileId" style="color:red"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-12 " style="width: 100% !important;">
+                                <div class="form-group ">
+                                    <label for="email">Email*</label>
+                                    <input type="email" class="form-control bs-input " id="email" aria-describedby="emailHelp " placeholder=" ">
+                                    <span id="emailId" style="color:red"></span>
+                                    <span id="validemailId" style="color:red"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="row ">
+                            <div class="col-md-12 " style="width: 100% !important;">
+                                <div class="form-group ">
+                                    <label for="Comments ">Comments/Questions</label>
+                                    <textarea class="form-control bs-input " id="Comments" rows="3 "></textarea>
+                                </div>
                             </div>
                         </div>
-                         <div class="col-md-12 ">
-                            <div class="form-group ">
-                                <label for="companyname">Company Name*</label>
-                                <input type="text " class="form-control bs-input " id="companyname" aria-describedby="emailHelp " placeholder="">
-                                <span id="companynameId" style="color:red"></span>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group ">
-                                <label for="jobtitle">Job Title*</label>
-                                <input type="text" class="form-control bs-input " id="jobtitle" aria-describedby="emailHelp " placeholder=" ">
-                                <span id="jobtitleId" style="color:red"></span>
-                            </div>
-                        </div>
-                         <div class="col-md-12">
-                            <div class="form-group ">
-                                <label for="mobileno">Phone*</label>
-                                <input type="text " class="form-control bs-input " id="mobileno" aria-describedby="emailHelp " placeholder=" ">
-                                <span id="mobilenoId" style="color:red"></span>
-                                <span id="validmobileId" style="color:red"></span>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="form-group ">
-                                <label for="email">Email*</label>
-                                <input type="email" class="form-control bs-input " id="email" aria-describedby="emailHelp " placeholder=" ">
-                                <span id="emailId" style="color:red"></span>
-                                <span id="validemailId" style="color:red"></span>
-                            </div>
-                        </div>
-                         
-                    </div>
-                        
-       
-                    <div class="row ">
-                        <div class="col-md-12 ">
-                            <div class="form-group ">
-                                <label for="Comments ">Comments/Questions</label>
-                                <textarea class="form-control bs-input " id="Comments" rows="3 "></textarea>
-                            </div>
-                        </div>
-                    </div>
-                   </form>
+                    </form>
                 </div>
                 <div class="modal-body_succsess">
-                <div style="text-align: center;">
-                <i class="fa fa-check-circle" aria-hidden="true" style="    color: green;  font-size: 64px;"></i>
-     
+                    <div style="text-align: center;">
+                        <i class="fa fa-check-circle" aria-hidden="true" style="    color: green;  font-size: 64px;"></i>
+                    </div>
+                    <p style="text-align: center; padding-top: 20px;font-size: 24px; font-weight: bold;color: green;"> SUCCESS!</p>
+                    <p style="text-align: center;font-weight: bold;"> We have received your request, our <br> team will contact you shortly.</p>
                 </div>
-                     <p style="text-align: center; padding-top: 20px;font-size: 24px; font-weight: bold;color: green;"> SUCCESS!</p>
-                <p style="text-align: center;font-weight: bold;">  We have received your request, our <br> team will contact you shortly.</p>
-                
+                <div class="modal-body_Failure">
+                    <div style="text-align: center;">
+                        <i class="fa fa-times-circle-o" aria-hidden="true" style="    color: indianred;  font-size: 64px;"></i>
+                    </div>
+                    <p style="text-align: center; padding-top: 20px;font-size: 24px; font-weight: bold;color: indianred;"> OH NO!</p>
+                    <p style="text-align: center;font-weight: bold;"> Something went wrong, <br> let's try again.</p>
                 </div>
-                
-                
-                 <div class="modal-body_Failure">
-                <div style="text-align: center;">
-               
-                <i class="fa fa-times-circle-o" aria-hidden="true" style="    color: indianred;  font-size: 64px;"></i>
-
-                </div>
-                     <p style="text-align: center; padding-top: 20px;font-size: 24px; font-weight: bold;color: indianred;"> OH NO!</p>
-                <p style="text-align: center;font-weight: bold;">  Something went wrong,  <br> let's try again.</p>
-                
-                </div>
-               
-                
                 <div class="modal-footer">
                     <button type="button " id="Submit_Registration" class="btn btn-primary ">Submit</button>
-                   <button type="button " id="Submit_Registration_succsess" data-dismiss="modal" class="btn btn-primary" style="color: #fff!important; background-color: green!important;  border-color: green!important;">Done</button>
+                    <button type="button " id="Submit_Registration_succsess" data-dismiss="modal" class="btn btn-primary" style="color: #fff!important; background-color: green!important;  border-color: green!important;">Done</button>
                     <button type="button " id="Submit_Registration_Failure" data-dismiss="modal" class="btn btn-primary " style="color: #fff!important; background-color: indianred !important; border-color: indianred !important;">Try Again</button>
-
                 </div>
-                
-               
             </div>
         </div>
     </div>
 
-    
 
-     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <a href="javaScript:void(0)" class="back-to-top"><i class="icofont-simple-up"></i></a>
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
-       
+
     <script src="assets/vendor/jquery/jquery.min.js"></script>
-    
+
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    
-<!--<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <!--
+     <script src="assets/js/main.js"></script>
+-->
+    <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>-->
-     
-   <!-- <script src='https://use.fontawesome.com/826a7e3dce.js'></script>-->
-    
+
+    <!-- <script src='https://use.fontawesome.com/826a7e3dce.js'></script>-->
+
     <script src="assets/vendor/aos/aos.js"></script>
 
 
 
     <!-- Template Main JS File -->
-   
-   <!-- <script src="assets/js/owl.js"></script>-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- <script src="assets/js/owl.js"></script>-->
     <script src="assets/js/slick.js"></script>
     <script src="assets/js/RequestForDemo.js"></script>
-     <script>
-        $(function() {
-            $("#header2").load("header.html");
-            $("#footer").load("footer.html");
-        });
-        
-
-    </script>
+  
     <script>
         // Toggle .header-scrolled class to #header when page is scrolled
         $(window).scroll(function() {
@@ -1066,7 +1238,19 @@
             }
         });
     </script>
+<script>
 
+jQuery(function($) {
+ var path = window.location.href;
+ $('.activenav').each(function() {
+  if (this.href === path) {
+   $(this).addClass('active1');
+  }
+ });
+});
+     
+   
+</script>
 </body>
 
 </html>
