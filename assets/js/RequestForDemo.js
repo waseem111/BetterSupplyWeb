@@ -18,6 +18,10 @@ var Home = function () {
                 
                 $("#Submit_Registration_Failure").hide();
                 
+                $(".loader-body").hide();
+                
+                $(".loader").hide();
+                
                 Home.CloseModel();
                 Home.DismissModel();
                 Home.DismissFailureModel();
@@ -88,6 +92,8 @@ var Home = function () {
                     return;
                 }
     
+                $(".loader-body").show();
+                $(".loader").show();
 
                 $.ajax({
                     url: 'http://localhost:54428/api/Customer/CreateRequestForDemo',
@@ -103,6 +109,9 @@ var Home = function () {
                         debugger
                         if (response.isSuccess) {
                             
+                                   $(".loader").hide();
+                            $(".loader-body").hide();
+                            
                             $(".modal-body").hide();
                             $(".modal-body_succsess").show();
                              $("#Submit_Registration_succsess").show();
@@ -110,6 +119,8 @@ var Home = function () {
                             //document.getElementById("closeModalpopup").click();
                         }
                         else {
+                                   $(".loader").hide();
+                            $(".loader-body").hide();
                             $("#Submit_Registration_Failure").show();
                             $(".modal-body_Failure").show();
                             $("#Submit_Registration").hide();
@@ -121,7 +132,8 @@ var Home = function () {
                     error: function (xhr, desc, error) {
                         //debugger
                         //alert("There is some technical issue.please try again");
-
+                            $(".loader").hide();
+                            $(".loader-body").hide();
                     }
                 });
             });

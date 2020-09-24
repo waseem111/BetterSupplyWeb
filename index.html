@@ -77,12 +77,39 @@
                margin-left: 27px !important;
             }
         }
+        
+         .loader-body {
+            background: #424242;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            z-index: 9998;
+        }
+
+        .loader {
+            position: absolute;
+            top: 40%;
+            border: 35px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 35px solid #ffc107;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 2s linear infinite; /* Safari */
+            animation: spin 2s linear infinite;
+        }
 
     </style>
 </head>
 
 <body>
 
+        <div class="loader-body">
+        <div class="loader">
+        </div>
+    </div>
+    
     <!-- ======= Header ======= -->
    <header id="header2"></header>
     <!-- End Header -->
