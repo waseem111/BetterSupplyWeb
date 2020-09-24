@@ -1,23 +1,4 @@
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:5,
-    loop:true,
-    /*margin:10,*/
-    autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true
-});
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[2000])
-})
-$('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
-})
-
-
-
-/*$('.owl-carousel').owlCarousel({
-    autoPlay: 1,
+$('.owl-carousel').owlCarousel({
     loop: true,
     margin: 0,
     nav: true,
@@ -25,7 +6,7 @@ $('.stop').on('click',function(){
         "<i class='fa fa-caret-left'></i>",
         "<i class='fa fa-caret-right'></i>"
     ],
-   autoPlay: 1,
+    autoplay: true,
     autoplayHoverPause: false,
     responsive: {
         0: {
@@ -38,4 +19,4 @@ $('.stop').on('click',function(){
             items: 5
         }
     }
-})*/
+})
